@@ -368,7 +368,6 @@ class _HomePageState extends State<HomePage> {
   String name = '';
   bool accessAllowed = true;
   bool extenderConnected = true;
-  bool extend = true;
 
   @override
   void initState() { super.initState(); loadPrefs(); }
